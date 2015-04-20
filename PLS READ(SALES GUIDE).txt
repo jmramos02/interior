@@ -1,0 +1,49 @@
+Notes
+Home:
+a.Sale Summary: Chart of sales for the month
+b.Pending Deliveries
+Displays all the deliveries that are currently pending. Can be derived from the database through the orderStatus.
+c. Best Seller(display top 10) computed from the database
+d. graph of company performance for the month.
+
+
+New Sales Invoice PAGE: 
+1. Sold to dropdown list: get from database the list of suppliers. Should not be pre-defined.
+
+Dropdown list is automatically updated when new customers are added to the database.
+2. Delivery Date: Place a dropdown calendar.
+Business Rule: date should be at least after 3 days of the current date.
+
+3.Order List Table":
+a. Product Code:
+b. Product Description: is automatically
+
+Pls fix the order list table.
+Checkbox of all products from the database.
+
+c. Remove and add row button: since it would be a checkbox
+
+d. Update Sales Invoice List: When the Button is clicked it would proceed to the confirmation page to check if they would want to continue or not.
+If yes it would display everything the customer ordered and all the information of the customer.
+The quantity should be entered by the user.
+
+Else it is redirected to the home page.
+
+3. Purchase Order: Almost the same as Sales Invoice
+
+4. Sales Invoice List would display all the orders from the database.
+Open Details: displays the orders details.
+Print Button: Shows a confirmation message only.
+When the database is updated the table should also be updated.
+
+5. Pending Order List same as Sales Invoice list
+
+Sales Summary Report: report may be sorted monthly or yearly. this function is not working yet
+Displays the Subtotal(product price * quantity sold) the effective cost(product price * quantity bought) and the Estimated profit(profit - cost)
+Print Button: Shows a confirmation message only.
+
+
+6. product Sales Breakdown:SKU = product code
+Should be retrieved from the database
+
+Print Button: Shows a confirmation message only.
